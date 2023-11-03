@@ -9,6 +9,7 @@
   "author": "Jacob Pudwill",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "mongoose": "^8.0.0"
   }
 }
