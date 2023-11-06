@@ -2,12 +2,12 @@
   "name": "progress-pulse",
   "version": "0.1.0",
   "description": "Easily record workout details, sets, reps, and weights, tailored to your workout routine. View your fitness journey with interactive charts that display muscle gain, strength improvement, and other essential metrics over time. Set and track personal fitness objectives, such as weight loss or strength goals, while accessing a detailed workout history.",
-  "main": "server/server.js",
+  "main": "server/server.mjs",
   "scripts": {
     "build": "cd client && npm run build",
     "develop": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "start": "node server/server.js",
+    "start": "node server/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/jacobPudwill/progress-pulse#readme",
   "devDependencies": {
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
