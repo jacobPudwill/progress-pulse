@@ -1,6 +1,3 @@
-// import { GraphQLError } from 'graphql';
-// import { User, Workout, Exercise, Set } from '../models';
-// import { signToken } from '../utils/auth';
 const { GraphQLError } = require('graphql');
 const { User, Workout, Exercise, Set } = require('../models');
 const { signToken } = require('../utils/auth');
